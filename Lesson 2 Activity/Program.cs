@@ -1,0 +1,23 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine ("What is your player's name?");
+        var playername = Console.ReadLine();
+        playername = playername.Trim();
+        Console.WriteLine ("Enter a mode of transport, e.g. bus, plane, train");
+        var methodoftransport = Console.ReadLine();
+        methodoftransport = methodoftransport.Trim();
+        Console.WriteLine ("Enter an out of the way travel destination");
+        var traveldestination = Console.ReadLine();
+        traveldestination = traveldestination.Trim();
+        Console.WriteLine ("Pick a plural noun");
+        var pluralnoun = Console.ReadLine();
+        pluralnoun = pluralnoun.Trim();
+        Console.WriteLine ("Pick a superpower");
+        var superpower = Console.ReadLine();
+        superpower = superpower.Trim();
+        Console.WriteLine ("What’s your favourite mythical creature?");
+        var mythicalcreature = Console.ReadLine();
+        mythicalcreature = mythicalcreature.Trim();     
+        Console.WriteLine ("Pick an adverb, e.g. playfully, sadly");
+        var adverb = Console.ReadLine();
+        adverb = adverb.Trim();
+Console.WriteLine($"{playername} went on a quest to find the last {mythicalcreature} of {traveldestination}. {playername} took the {methodoftransport} to {traveldestination} and was sitting {adverb} by themself, when suddenly, hundreds of {pluralnoun} appeared and used their secret power of {superpower}. {playername} was so surprised that they forgot all about their quest, got the next {methodoftransport} home and lived happily ever after.");
