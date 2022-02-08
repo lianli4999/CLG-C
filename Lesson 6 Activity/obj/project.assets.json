@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Lesson 6 Activity.csproj",
-      "projectName": "Lesson 6 Activity",
-      "projectPath": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Lesson 6 Activity.csproj",
+      "projectUniqueName": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj",
       "packagesPath": "C:\\Users\\lilli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\obj\\",
+      "outputPath": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lilli\\AppData\\Roaming\\NuGet\\NuGet.Config"
