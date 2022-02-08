@@ -1,0 +1,12 @@
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.csproj.AssemblyReference.cache
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.AssemblyInfoInputs.cache
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.AssemblyInfo.cs
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.csproj.CoreCompileInputs.cache
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\bin\Debug\net6.0\Lesson 6 Activity.deps.json
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\bin\Debug\net6.0\Lesson 6 Activity.dll
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\bin\Debug\net6.0\ref\Lesson 6 Activity.dll
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\bin\Debug\net6.0\Lesson 6 Activity.pdb
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.dll
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\ref\Lesson 6 Activity.dll
+C:\Users\lilli\Desktop\C#\Lesson 6 Activity\obj\Debug\net6.0\Lesson 6 Activity.pdb
