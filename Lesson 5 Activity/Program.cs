@@ -29,9 +29,9 @@ namespace CourseCoordinator
 				Console.WriteLine("4: Unenrol = Unenrol a student");
 				Console.WriteLine("5: AddCourse = Add a new course to the university catalogue");
 				Console.WriteLine("6: RemoveCourse = Remove a course from the university catalogue");
-                Console.WriteLine("7: List the courses each student is enrolled in")
+                Console.WriteLine("7: List the courses each student is enrolled in");
 				Console.WriteLine("X = Exit");
-				var userInput = int.Parse(Console.ReadLine());
+				var userInput = Console.ReadLine();
 
                 // check .ToUpper 
 
@@ -45,7 +45,7 @@ namespace CourseCoordinator
 				// respond to the user command
 				switch (userInput)
 				{
-					case 1:
+					case "1":
 						Console.WriteLine("Here is a list of students:");
 						// code to list all students at uni
                         for(var i=0; i<students.Count; i++)
@@ -53,7 +53,7 @@ namespace CourseCoordinator
                             Console.WriteLine(students[i]);
                         }
 						break;
-					case 2:
+					case "2":
 						Console.WriteLine("Here is a list of courses offered:");
 						// code to list all courses on offer
                          for(var i=0; i<courses.Count; i++)
@@ -61,37 +61,38 @@ namespace CourseCoordinator
                             Console.WriteLine(students[i]);
                         }
 						break;
-                    case 3:
+                    case "3":
                         // enrol more students to the university
                         Console.WriteLine("List the student(s) to be enrolled (case sensitive)");
-                        var student = string.Parse(Console.ReadLine());
-                        students.Add(student);
+                        var student = Console.ReadLine();
+                        students.Add(student!);
                         break;
-                    case 4:
+                    case "4":
                         // unenrol students from uni
                         Console.WriteLine("List the student(s) to be unenrolled (case sensitive)");
-                        var student = string.Parse(Console.ReadLine());
-                        students.Remove(student);
+                        var studentUnenrol = Console.ReadLine();
+                        students.Remove(studentUnenrol!);
                         break;
-                    case 5:
+                    case "5":
                         // add a new course to uni catalogue
                         Console.WriteLine("List the course to be added (case sensitive)");
-                        var course = string.Parse(Console.ReadLine());
-                        courses.Add(course);
+                        var course = Console.ReadLine();
+                        courses.Add(course!);
                         break;
-                    case 6:
+                    case "6":
                         // remove a course from uni catalogue
                         Console.WriteLine("List the course to be removed (case sensitive)");
-                        var course = string.Parse(Console.ReadLine());
-                        courses.Remove(course);
+                        var courseRemove = Console.ReadLine()!;
+                        courses.Remove(courseRemove);
+                        // handle error cases
                         break;
-                    case 7:
+                    case "7":
                         // list the courses each student is enrolled in
                         Console.WriteLine("Choose a student to display their enrollments. (input lower case names only)");
-                        var studentName = string.Parse(Console.ReadLine());
-                        foreach (var course in studentName+Courses)
+                        var studentName = Console.ReadLine();
+                        foreach (var j in studentName+"Courses")
                         {
-                            Console.WriteLine(studentName+Courses);
+                            Console.WriteLine(j);
                         }
                         break;
 					default:
