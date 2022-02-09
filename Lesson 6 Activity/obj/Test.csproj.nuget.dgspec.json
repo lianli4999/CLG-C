@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj": {}
+    "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj": {
+    "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\Test.csproj",
+        "projectPath": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\Test.csproj",
         "packagesPath": "C:\\Users\\lilli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilli\\Desktop\\C#\\New folder\\obj\\",
+        "outputPath": "C:\\Users\\lilli\\Desktop\\C#\\Lesson 6 Activity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lilli\\AppData\\Roaming\\NuGet\\NuGet.Config"

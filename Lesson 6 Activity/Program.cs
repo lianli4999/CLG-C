@@ -16,31 +16,39 @@ var userInput = Console.ReadLine();
 
 mainProgram(numOne, numTwo, userInput);
 
-static double addition(double numOne, double numTwo)
+
+static void addition(double numOne, double numTwo)
 {
-    return numOne+numTwo;
+    //return numOne+numTwo;
+    Console.WriteLine($"{numOne+numTwo}");
+    //j=false; this has to be in the main to work
 }
 
-static double division(double numOne, double numTwo)
+static void division(double numOne, double numTwo)
 {
-    return numOne/numTwo;
+    //return numOne/numTwo;
+    Console.WriteLine($"{numOne/numTwo}");
 }
 
-static double subtraction(double numOne, double numTwo)
+static void subtraction(double numOne, double numTwo)
 {
-    return numOne-numTwo;
+   //return numOne-numTwo;
+    Console.WriteLine($"{numOne-numTwo}");
 }			
 
-static double power(double numOne, double numTwo)
+static void power(double numOne, double numTwo)
 {
-    return Math.Pow(numOne, numTwo);
+    //return Math.Pow(numOne, numTwo);
+    Console.WriteLine($"{Math.Pow(numOne, numTwo)}");
 }
 
 
 
 static void mainProgram(double numOne, double numTwo, string userInput)
 {
-while (true)
+var j=true;
+
+while (j)
     {
         
         // exit the code if a user inputs X
@@ -54,19 +62,24 @@ while (true)
         {
             case "+":
                 addition(numOne, numTwo);
+                //Console.WriteLine($"{numOne+numTwo}");
+                j=false;
                 break;
             case "/":
                 division(numOne, numTwo);
+                j=false;
                 break;
             case "-":
                 subtraction(numOne, numTwo);
+                j=false;
                 break;
             case "^":
                 power(numOne, numTwo);
+                j=false;
                 break;
             default:
                 Console.WriteLine("I didn't recognise that command, please try again");
                 break;
-        }
+        } break;
     }
 }       
