@@ -25,9 +25,10 @@ namespace ExamCentre
             exam.AddStudent(student2);
 
 
-            Console.WriteLine($"{student2.StudentName}, student number protected, in {exam.Subject}");
+            Console.WriteLine($"{student2.StudentName}, student number protected, has an exam in {exam.Subject}");
 
-
+            Console.WriteLine("The students and their scores are: (only revealed if using PrintStudent())");
+            exam.ListStudents(student1);
 
         }
 
@@ -56,6 +57,11 @@ namespace ExamCentre
                 student?.AddScore(studentScore);
             }
 
+            public void PrintStudent() //have to have this method in student class to allow ListStudents to call it
+            {
+                Console.WriteLine($"Student Name: {StudentName}, Student Number: {StudentNo}, Student Score: {StudentScore}");
+            }
+
 
         }
 
@@ -69,18 +75,21 @@ namespace ExamCentre
             public Exam(string subject)
             {
                 Subject = subject;
-                Student initialCase = new Student("Amy", 213);
-                Students = new List<Student> { initialCase };
+                //Student initialCase = new Student("Amy", 213);
+                Students = new List<Student> { };
 
             }
 
             public void AddStudent(Student student)
             {
                 Students.Add(student);
+            }
 
-                foreach (Student i in Students)
+            public void ListStudents(Student student)
+            {
+                foreach (var Student in Students)
                 {
-                    Console.WriteLine(i);
+                    Student.PrintStudent();
                 }
             }
 
