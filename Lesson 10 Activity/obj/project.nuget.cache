@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "j+ICjYD5LIQRduDmwFDqa0o6ZuUsbEWk/Y5VYk1PPryDNtILE587BTlwNPzcqZQn5rSaGodgQBmRnRN2U/XXIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lilli\\Desktop\\C#\\RideShare\\RideShare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lilli\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lilli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lilli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\lilli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

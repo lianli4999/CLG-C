@@ -1,0 +1,14 @@
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.exe
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.deps.json
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.runtimeconfig.json
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.runtimeconfig.dev.json
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.dll
+C:\Users\lilli\Desktop\C#\RideShare\bin\Debug\netcoreapp3.1\RideShare.pdb
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.csproj.AssemblyReference.cache
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.AssemblyInfoInputs.cache
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.AssemblyInfo.cs
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.csproj.CoreCompileInputs.cache
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.dll
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.pdb
+C:\Users\lilli\Desktop\C#\RideShare\obj\Debug\netcoreapp3.1\RideShare.genruntimeconfig.cache
